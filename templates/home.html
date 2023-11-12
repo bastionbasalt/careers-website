@@ -4,16 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Careers</title>
+    <style>
+        h1 {
+            font-size: 40px;
+            font-family: Roboto;  
+            font-weight: normal;
+            color: rgb(100, 100, 100);
+            text-align: center;
+        }
+
+        h2 {
+            font-family: Roboto;
+            font-size: 32px;
+            color: rgb(100, 100, 100);
+            text-align: center;
+        }
+
+        .bodytext {
+            font-family: Roboto;
+            color: rgb(80, 80, 80);
+        }
+
+        #banner {
+            width: 100%;
+            height: 360px;
+            object-fit: cover;
+        }
+
+        #container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>Careers</h1>
-    <img src="/static/banner.jpg" alt="A terrific building" style="rotate: 90deg;">
-    <h2>About the company</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam similique quisquam, eos dolores dolor possimus debitis, facilis temporibus sit odio inventore quas amet velit incidunt iure enim dolorem excepturi sunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo vitae aut alias recusandae. Placeat, enim aspernatur? Libero aut, eius, quidem expedita amet atque a earum quasi ipsa labore, distinctio consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, non perspiciatis repellendus aspernatur dolorum ut labore harum, aliquid totam in tempora distinctio amet a dignissimos corporis iure ipsa dolores libero!</p>
-    <h2>Open Positions</h2>
-    <p>TODO - Show the jobs here</p>
-    <button>Contact Us</button>
-
+    <div id="container">
+        <h1>Careers</h1>
+        <img id="banner" src="/static/banner.jpg" alt="A terrific building" >
+        <h2>About the company</h2>
+        <p class="bodytext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam similique quisquam, eos dolores dolor possimus debitis, facilis temporibus sit odio inventore quas amet velit incidunt iure enim dolorem excepturi sunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo vitae aut alias recusandae. Placeat, enim aspernatur? Libero aut, eius, quidem expedita amet atque a earum quasi ipsa labore, distinctio consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, non perspiciatis repellendus aspernatur dolorum ut labore harum, aliquid totam in tempora distinctio amet a dignissimos corporis iure ipsa dolores libero!</p>
+        <h2>Open Positions</h2>
+        <p class="bodytext">TODO - Show the jobs here</p>
+        <button style="text-align: center;">Contact Us</button>
+        <p>Copyright 2023</p>
+    </div>
 
 </body>
 </html>
